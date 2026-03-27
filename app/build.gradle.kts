@@ -61,6 +61,10 @@ dependencies {
     // Асинхронные операции (Корутины)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1")
 
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
